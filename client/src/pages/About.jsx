@@ -71,6 +71,21 @@ export default function About() {
             </div>
           </div>
         </div>
+
+        {/* Contact Details Section */}
+        <div className="mt-12 bg-gray-100 shadow-md p-8 rounded-lg">
+          <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">
+            Contact Details
+          </h2>
+          <div className="text-center">
+            <p className="text-lg text-gray-700 mb-4">
+              📞 <span className="font-semibold">Mobile:</span> +91-9876543210
+            </p>
+            <p className="text-lg text-gray-700">
+              📧 <span className="font-semibold">Email:</span> contact@havenhub.com
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
