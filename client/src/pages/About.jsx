@@ -79,10 +79,10 @@ export default function About() {
           </h2>
           <div className="text-center">
             <p className="text-lg text-gray-700 mb-4">
-              📞 <span className="font-semibold">Mobile:</span> +91-9876543210
+              📞 <span className="font-semibold">Mobile:</span> +91-9265556597
             </p>
             <p className="text-lg text-gray-700">
-              📧 <span className="font-semibold">Email:</span> contact@havenhub.com
+              📧 <span className="font-semibold">Email:</span> shubham.prajpati9297@gmail.com.com
             </p>
           </div>
         </div>
