@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center">
           {/* Website Name */}
           <h2 className="font-bold text-lg sm:text-2xl text-teal-400">
-            Heaven<span className="text-white">Hub</span>
+            Haven<span className="text-white">Hub</span>
           </h2>
 
           {/* Navigation Links */}
@@ -65,7 +65,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="mt-6 border-t border-slate-700 pt-4 text-center text-sm text-slate-400">
-          © {new Date().getFullYear()} HeavenHub. All rights reserved. <br />
+          © {new Date().getFullYear()} HavenHub. All rights reserved. <br />
           Designed and maintained by <span className="text-teal-400">Shubham Prajapati</span>.
         </div>
       </div>
