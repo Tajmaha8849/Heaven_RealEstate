@@ -50,7 +50,7 @@ export default function About() {
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-6">
             <img
-              src=src={photos}
+              src={photos}
               alt="Shubham Prajapati"
               className="w-36 h-36 rounded-full shadow-md"
             />
