@@ -1,4 +1,6 @@
 import React from 'react';
+import photo from '../assets/Haven.jpg';
+import photos from '../assets/shubhams.jpg';
 
 export default function About() {
   return (
@@ -13,7 +15,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <img
-              src="https://via.placeholder.com/600x400"
+              src={photo}
               alt="About HavenHub"
               className="rounded-lg shadow-lg"
             />
@@ -48,7 +50,7 @@ export default function About() {
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-6">
             <img
-              src="https://via.placeholder.com/150"
+              src=src={photos}
               alt="Shubham Prajapati"
               className="w-36 h-36 rounded-full shadow-md"
             />
