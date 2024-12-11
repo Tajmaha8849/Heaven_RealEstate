@@ -6,12 +6,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://heaven-hub-estate-api.vercel.app',  // Ensure this is correct
-        changeOrigin: true,  // Ensure the origin is properly changed to the target
-        secure: true,  // If you're using a valid SSL certificate on the backend, set to true
+        target: 'http://localhost:3000', // Proxy to your server during development
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '/api'), // Keep the '/api' prefix
       },
     },
   },
-
   plugins: [react()],
 });
